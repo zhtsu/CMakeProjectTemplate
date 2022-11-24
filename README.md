@@ -1,2 +1,2 @@
 # CMake Project Template
-This is my common CMake project template.
+This is a CMake project template.
