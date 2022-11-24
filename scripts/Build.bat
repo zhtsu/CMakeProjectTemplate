@@ -5,5 +5,5 @@ if exist CMakeCache.txt del CMakeCache.txt
 cmake -G "MinGW Makefiles" ..
 mingw32-make -f Makefile
 cd bin
-CMakeProjectTemplate
+CMake_ProjectTemplate
 pause

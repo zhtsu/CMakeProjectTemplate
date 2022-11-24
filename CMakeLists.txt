@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.16.0)
 
-project(CMakeProjectTemplate)
+project(CMake_ProjectTemplate)
 
 set(CMake_BUILD_TYPE "Debug")
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/build/bin)
@@ -13,11 +13,11 @@ include_directories(${PROJECT_SOURCE_DIR}/src)
 add_subdirectory(${PROJECT_SOURCE_DIR}/src/Test)
 
 add_executable(
-    CMakeProjectTemplate
+    CMake_ProjectTemplate
     ${PROJECT_SOURCE_DIR}/src/Main.cpp
 )
 
 target_link_libraries(
-    CMakeProjectTemplate
+    CMake_ProjectTemplate
     Test
 )
