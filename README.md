@@ -7,4 +7,4 @@ This is a CMake project template what using MinGW.
 - MinGW64
 
 ## How to Run
-Double-click scripts/Build.bat
+Double-click to run scripts/Build.bat
