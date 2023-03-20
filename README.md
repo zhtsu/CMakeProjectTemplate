@@ -1,5 +1,5 @@
 # CMake Project Template
-This is a CMake project template what using MinGW.
+This is a CMake project template with MinGW.
 
 ## Environment
 - Windows 10 or later
